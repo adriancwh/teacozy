@@ -1,0 +1,117 @@
+body,
+a {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+/*div {
+  border: 1px solid white;
+}*/
+/*--Header--*/
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  z-index: 10;
+  background-color: black;
+}
+.header-logo {
+  margin-left: 10px;
+}
+.header-nav {
+  width: 400px;
+  margin-right: 20px;
+}
+#menu {
+  display: flex;
+  justify-content: space-between;
+}
+/*--END OF HEADER--*/
+.main-container {
+  padding-top: 70px;
+  margin: auto;
+  width: 1200px;
+}
+.mission-container {
+  display: flex;
+  padding-top: 0;
+  height: 700px;
+  justify-content: center;
+}
+.mission-image {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 100%;
+  width: 100%;
+}
+.mission-statement {
+  background-color: black;
+  margin: 300px 0;
+  text-align: center;
+  height: auto;
+}
+.mission-statement h2,
+.mission-statement h4 {
+  padding: 10px 0;
+  margin: 0;
+}
+/*--END OF MISSION STATEMENT--*/
+.totm-container {
+  margin: auto;
+  width: 1000px;
+  padding: 75px 0;
+}
+.totm-title {
+  text-align: center;
+}
+.totm-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.totm-panel {
+  padding: 15px;
+}
+.totm-picture img {
+  width: 300px;
+}
+.totm-description h4 {
+  margin: 10px;
+}
+/*--END OF TOTM--*/
+.location {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  padding-top: 70px;
+}
+.store-container {
+  display: flex;
+  justify-content: center;
+}
+.store-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  width: 300px;
+  margin: 0 20px;
+}
+/*--END OF LOCATIONS--*/
+.contact-us {
+  height: 200px;
+  text-align: center;
+}
+.contact-us h2 {
+  margin-bottom: 50px;
+}
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
