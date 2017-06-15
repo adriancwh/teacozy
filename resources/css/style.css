@@ -7,6 +7,7 @@ a {
   opacity: 0.9;
   text-align: center;
   margin: 0;
+  width: auto;
 }
 /*div {
   border: 1px solid white;
@@ -104,6 +105,9 @@ a {
   margin: 0 20px;
 }
 /*--END OF LOCATIONS--*/
+.footer {
+  width: auto;
+}
 .contact-us {
   height: 200px;
   text-align: center;
